@@ -1,0 +1,1 @@
+/usr/lib/hardening-wrapper/bin/c++  -g -Wall -lglfw  -rdynamic CMakeFiles/Roguelite.dir/src/Draw.cpp.o CMakeFiles/Roguelite.dir/src/Engine.cpp.o CMakeFiles/Roguelite.dir/src/Input.cpp.o CMakeFiles/Roguelite.dir/src/Main.cpp.o CMakeFiles/Roguelite.dir/src/Update.cpp.o  -o Roguelite -lGL 

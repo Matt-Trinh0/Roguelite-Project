@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matt/Programming/GameDev/Roguelite/include/Engine.h
+GLFW/glfw3.h
+-
+
+/home/matt/Programming/GameDev/Roguelite/src/Draw.cpp
+../include/Engine.h
+/home/matt/Programming/GameDev/Roguelite/include/Engine.h
+
+/home/matt/Programming/GameDev/Roguelite/src/Engine.cpp
+../include/Engine.h
+/home/matt/Programming/GameDev/Roguelite/include/Engine.h
+
+/home/matt/Programming/GameDev/Roguelite/src/Input.cpp
+../include/Engine.h
+/home/matt/Programming/GameDev/Roguelite/include/Engine.h
+
+/home/matt/Programming/GameDev/Roguelite/src/Main.cpp
+../include/Engine.h
+/home/matt/Programming/GameDev/Roguelite/include/Engine.h
+
+/home/matt/Programming/GameDev/Roguelite/src/Update.cpp
+../include/Engine.h
+/home/matt/Programming/GameDev/Roguelite/include/Engine.h
+

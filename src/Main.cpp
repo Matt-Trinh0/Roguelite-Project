@@ -1,6 +1,6 @@
 // Standard I/O Library
 //#include <stdio.h>
-#include "Engine.h"
+#include "../include/Engine.h"
 
 int main() {
 	// Create engine

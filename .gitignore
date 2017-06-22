@@ -1,1 +1,9 @@
+# Miscellaneous
 Notes.txt
+
+# CMake Files
+CMakeCache.txt
+CmakeFiles
+cmake_install.cmake
+Makefile
+
