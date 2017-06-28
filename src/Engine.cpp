@@ -16,6 +16,9 @@ Engine::Engine() {
     if (!m_Window) {
         glfwTerminate();
     }
+    
+    // Game states
+    enum gameState {game_paused, game_active};
 
 };
 

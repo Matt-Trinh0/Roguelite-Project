@@ -6,6 +6,8 @@ project (${PROJECT_NAME})
 # Required libraries
 find_package(OpenGL REQUIRED)
 find_package(glfw3 3.2 REQUIRED)
+find_package(GLEW REQUIRED)
+find_library(SOIL_LIBRARIES SOIL /usr/lib REQUIRED)
 
 # Store all files in src and include in variables 
 file(GLOB_RECURSE Game_SOURCE "src/*.cpp")
@@ -24,10 +26,10 @@ include_directories(${Game_INCLUDE_DIRS})
 add_executable(${PROJECT_NAME} ${Game_SOURCE})
 
 # Link OpenGL, GL, and GLU (legacy, no need to include) libraries
-#target_include_directories(${PROJECT_NAME} ${OPENGL_INCLUDE_DIR}) # For some reason this does not work, read over documentation later
-target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY})
-#target_link_libraries(${PROJECT_NAME} ${OPENGL_glu_LIBRARY})
+#target_include_directories(${PROJECT_NAME} ${OPENGL_INCLUDE_DIR}) # TODO For some reason this does not work, read over documentation later
+target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} ${SOIL_LIBRARIES})
+#target_link_libraries(${PROJECT_NAME} ${OPENGL_glu_LIBRARY}) # Legacy 
 
 # Set to make with debugging symbols "-g" and all warnings "-Wall"
-set(CMAKE_CXX_FLAGS "-g -Wall -lglfw") # can be either "-lglfw" or "-lglfw3" depending on your GLFW installation
+set(CMAKE_CXX_FLAGS "-std=c++11 -g -Wall -lglfw -lGLEW -lGL") # can be either "-lglfw" or "-lglfw3" depending on your GLFW installation
 

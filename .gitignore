@@ -3,9 +3,7 @@ Notes.txt
 
 # CMake Files
 CMakeCache.txt
-CMakeFiles
+CmakeFiles
 cmake_install.cmake
 Makefile
 
-# Executable
-Roguelite

@@ -19,7 +19,7 @@ class Engine {
         double current_time;
         double delta_time;
         double last_time;
-
+        
         // Calls private functions
         void start();
 
