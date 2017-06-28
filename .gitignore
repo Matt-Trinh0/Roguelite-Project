@@ -3,7 +3,7 @@ Notes.txt
 
 # CMake Files
 CMakeCache.txt
-CmakeFiles
+CmakeFiles/
 cmake_install.cmake
 Makefile
 
