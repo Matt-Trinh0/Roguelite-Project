@@ -1,3 +1,0 @@
-/home/matt/Programming/GameDev/Roguelite/CMakeFiles/rebuild_cache.dir
-/home/matt/Programming/GameDev/Roguelite/CMakeFiles/Roguelite.dir
-/home/matt/Programming/GameDev/Roguelite/CMakeFiles/edit_cache.dir
