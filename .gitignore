@@ -7,3 +7,5 @@ CmakeFiles
 cmake_install.cmake
 Makefile
 
+# Application
+Roguelite
